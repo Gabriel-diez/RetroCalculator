@@ -70,6 +70,14 @@ class ViewController: UIViewController {
         processOperation(operation: currentOperation)
     }
     
+    @IBAction func clearPressed(sender: AnyObject) {
+        playSound()
+        
+        runningNumber = ""
+        outputLbl.text = "0"
+        currentOperation = Operation.Empty
+    }
+    
     func playSound() {
         if btnSound.isPlaying {
             btnSound.stop()
@@ -79,7 +87,7 @@ class ViewController: UIViewController {
     
     func processOperation(operation: Operation) {
         playSound()
-        if currentOperation != Operation.Empty {
+        if leftValStr != "" && currentOperation != Operation.Empty {
             // A user selected an operator and then an another
             if runningNumber != "" {
                 rightValStr = runningNumber
@@ -99,7 +107,9 @@ class ViewController: UIViewController {
                 leftValStr = result
                 outputLbl.text = result
             }
+            
             currentOperation = operation
+            
         } else {
             // first time an operator has been pressed
             leftValStr = runningNumber

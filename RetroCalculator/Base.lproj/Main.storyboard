@@ -36,30 +36,30 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="SpO-ze-ygL">
-                                <rect key="frame" x="24" y="0.0" width="272" height="79"/>
+                                <rect key="frame" x="24" y="-1" width="272" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="272" id="PGn-uW-D92"/>
                                     <constraint firstAttribute="height" constant="79" id="k0p-lJ-Fir"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="TSy-CP-y2e">
-                                <rect key="frame" x="24" y="93" width="272" height="364"/>
+                                <rect key="frame" x="15" y="80" width="290" height="380"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="272" id="RDx-H6-ekJ"/>
-                                    <constraint firstAttribute="height" constant="364" id="vvo-RW-jdm"/>
+                                    <constraint firstAttribute="width" constant="290" id="RDx-H6-ekJ"/>
+                                    <constraint firstAttribute="height" constant="380" id="vvo-RW-jdm"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2OQ-Pe-67x">
-                                <rect key="frame" x="58" y="110" width="204" height="330"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2OQ-Pe-67x">
+                                <rect key="frame" x="61" y="89.5" width="198" height="361"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Jym-ug-JdR">
-                                        <rect key="frame" x="0.0" y="0.0" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="198" height="56"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nij-Gg-Euk">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="M6E-Ue-CCh"/>
-                                                    <constraint firstAttribute="height" constant="58" id="fJi-tv-IwM"/>
+                                                    <constraint firstAttribute="height" constant="56" id="BW4-f7-lpI"/>
+                                                    <constraint firstAttribute="width" constant="54" id="Ftj-Un-Bi2"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="7"/>
@@ -68,10 +68,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQq-MZ-Ntx">
-                                                <rect key="frame" x="74" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="72" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="gPS-4X-uk5"/>
-                                                    <constraint firstAttribute="width" constant="56" id="uKA-af-Z0C"/>
+                                                    <constraint firstAttribute="width" constant="54" id="2OB-pO-mwx"/>
+                                                    <constraint firstAttribute="height" constant="56" id="TBc-9K-eu6"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="8"/>
@@ -80,10 +80,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6T-XY-Cdy">
-                                                <rect key="frame" x="148" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="144" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="jNW-0e-9NM"/>
-                                                    <constraint firstAttribute="height" constant="58" id="oUK-1F-tpF"/>
+                                                    <constraint firstAttribute="height" constant="56" id="rZs-oY-gK8"/>
+                                                    <constraint firstAttribute="width" constant="54" id="s80-Jt-MKa"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="9"/>
@@ -94,13 +94,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="8NH-xu-Rfn">
-                                        <rect key="frame" x="0.0" y="68" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="61" width="198" height="56"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cs-yR-xYb">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="JY9-lJ-xZi"/>
-                                                    <constraint firstAttribute="width" constant="56" id="Wyk-Ag-Sp0"/>
+                                                    <constraint firstAttribute="width" constant="54" id="gDP-lM-bYO"/>
+                                                    <constraint firstAttribute="height" constant="56" id="iDb-KB-Aei"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="4"/>
@@ -109,10 +109,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-3f-BRo">
-                                                <rect key="frame" x="74" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="72" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="jsP-Jv-xB8"/>
-                                                    <constraint firstAttribute="width" constant="56" id="zH2-qz-aKP"/>
+                                                    <constraint firstAttribute="width" constant="54" id="baG-Mk-6Ji"/>
+                                                    <constraint firstAttribute="height" constant="56" id="qiU-hT-UQF"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="5"/>
@@ -121,10 +121,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srB-Bm-3rm">
-                                                <rect key="frame" x="148" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="144" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="jw7-JX-GqX"/>
-                                                    <constraint firstAttribute="height" constant="58" id="nAT-Ea-eN4"/>
+                                                    <constraint firstAttribute="height" constant="56" id="YC1-RP-6s5"/>
+                                                    <constraint firstAttribute="width" constant="54" id="dvq-ww-q51"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="6"/>
@@ -135,13 +135,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="9c2-lL-Vug">
-                                        <rect key="frame" x="0.0" y="136" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="122" width="198" height="56"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btU-Ci-54Z">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="PNQ-9O-11U"/>
-                                                    <constraint firstAttribute="height" constant="58" id="zUj-lz-S2u"/>
+                                                    <constraint firstAttribute="height" constant="56" id="Cc6-cb-dSk"/>
+                                                    <constraint firstAttribute="width" constant="54" id="Uo0-er-MWk"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="1"/>
@@ -150,10 +150,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rx5-Q3-UTa">
-                                                <rect key="frame" x="74" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="72" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="ZCw-5Y-b6c"/>
-                                                    <constraint firstAttribute="width" constant="56" id="icj-Di-DhK"/>
+                                                    <constraint firstAttribute="width" constant="54" id="48j-Nz-cQD"/>
+                                                    <constraint firstAttribute="height" constant="56" id="9FF-KZ-83p"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="2"/>
@@ -162,10 +162,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kh-QE-z6H">
-                                                <rect key="frame" x="148" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="144" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="Oj7-1h-Ixm"/>
-                                                    <constraint firstAttribute="width" constant="56" id="uA2-7j-z22"/>
+                                                    <constraint firstAttribute="height" constant="56" id="TEl-MV-lJ3"/>
+                                                    <constraint firstAttribute="width" constant="54" id="r4a-Te-lIM"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="3"/>
@@ -176,13 +176,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="vi0-Hy-OIA">
-                                        <rect key="frame" x="0.0" y="204" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="183" width="198" height="56"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwg-Yl-352">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="FFb-IF-51L"/>
-                                                    <constraint firstAttribute="height" constant="58" id="Mhw-gw-FWu"/>
+                                                    <constraint firstAttribute="width" constant="54" id="GXs-cS-Z5p"/>
+                                                    <constraint firstAttribute="height" constant="56" id="nBX-WB-Gg9"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="0"/>
@@ -191,10 +191,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paV-yW-9oj">
-                                                <rect key="frame" x="74" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="72" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="0qb-5p-knX"/>
-                                                    <constraint firstAttribute="height" constant="58" id="LvI-sa-mUS"/>
+                                                    <constraint firstAttribute="width" constant="54" id="2J1-Ev-ltl"/>
+                                                    <constraint firstAttribute="height" constant="56" id="3ig-sl-OoX"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="divide"/>
@@ -203,10 +203,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdM-WU-hwe">
-                                                <rect key="frame" x="148" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="144" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="Maw-45-W0t"/>
-                                                    <constraint firstAttribute="width" constant="56" id="n00-m8-OWR"/>
+                                                    <constraint firstAttribute="width" constant="54" id="EkR-hv-ndy"/>
+                                                    <constraint firstAttribute="height" constant="56" id="Uja-6o-r70"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="multiply"/>
@@ -217,13 +217,13 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="lfr-J1-joi">
-                                        <rect key="frame" x="0.0" y="272" width="204" height="58"/>
+                                        <rect key="frame" x="0.0" y="244" width="198" height="56"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tcy-V9-CsP">
-                                                <rect key="frame" x="0.0" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="lhA-cc-FqO"/>
-                                                    <constraint firstAttribute="height" constant="58" id="n3s-aO-IJ4"/>
+                                                    <constraint firstAttribute="height" constant="56" id="Ebp-VE-yZW"/>
+                                                    <constraint firstAttribute="width" constant="54" id="hi6-1n-LVa"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="subtract"/>
@@ -232,10 +232,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wz5-DS-kdx">
-                                                <rect key="frame" x="74" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="72" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="56" id="9dt-Ww-pDn"/>
-                                                    <constraint firstAttribute="height" constant="58" id="yhY-CC-dTp"/>
+                                                    <constraint firstAttribute="width" constant="54" id="HI2-ge-046"/>
+                                                    <constraint firstAttribute="height" constant="56" id="hKU-gD-OMT"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="add"/>
@@ -244,10 +244,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySI-J4-Yzc">
-                                                <rect key="frame" x="148" y="0.0" width="56" height="58"/>
+                                                <rect key="frame" x="144" y="0.0" width="54" height="56"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="58" id="YwT-jd-9mq"/>
-                                                    <constraint firstAttribute="width" constant="56" id="qGe-eq-VRr"/>
+                                                    <constraint firstAttribute="height" constant="56" id="bY3-qp-PhT"/>
+                                                    <constraint firstAttribute="width" constant="54" id="dXK-5a-l5h"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <state key="normal" image="equal"/>
@@ -257,10 +257,27 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZcO-fn-gdV">
+                                        <rect key="frame" x="0.0" y="305" width="198" height="56"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2l-bv-Rns">
+                                                <rect key="frame" x="0.0" y="0.0" width="198" height="56"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="ltf-tE-dOO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="clearPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYw-B9-hwT"/>
+                                                    <action selector="onSubtractPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0o-S7-ife"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSj-DM-haX">
-                                <rect key="frame" x="39" y="30" width="242" height="20"/>
+                                <rect key="frame" x="39" y="29" width="242" height="20"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -268,7 +285,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TSy-CP-y2e" firstAttribute="top" secondItem="SpO-ze-ygL" secondAttribute="bottom" constant="14" id="0eE-2h-KY8"/>
+                            <constraint firstItem="TSy-CP-y2e" firstAttribute="top" secondItem="SpO-ze-ygL" secondAttribute="bottom" constant="2" id="0eE-2h-KY8"/>
                             <constraint firstItem="vGb-wL-HQf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Ed-3f-wcT"/>
                             <constraint firstItem="vGb-wL-HQf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="208-tt-YAK"/>
                             <constraint firstItem="dSj-DM-haX" firstAttribute="leading" secondItem="SpO-ze-ygL" secondAttribute="leading" constant="15" id="5FR-nh-sCG"/>
@@ -282,7 +299,7 @@
                             <constraint firstAttribute="trailing" secondItem="kYl-zj-JY2" secondAttribute="trailing" id="lkn-Yx-jBb"/>
                             <constraint firstItem="dSj-DM-haX" firstAttribute="trailing" secondItem="SpO-ze-ygL" secondAttribute="trailing" constant="-15" id="sLJ-4l-x3M"/>
                             <constraint firstItem="2OQ-Pe-67x" firstAttribute="centerX" secondItem="TSy-CP-y2e" secondAttribute="centerX" id="vdB-5C-tJf"/>
-                            <constraint firstItem="TSy-CP-y2e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="35" id="x8P-Zi-A5X"/>
+                            <constraint firstItem="TSy-CP-y2e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="x8P-Zi-A5X"/>
                             <constraint firstItem="2OQ-Pe-67x" firstAttribute="centerY" secondItem="TSy-CP-y2e" secondAttribute="centerY" id="xmK-cf-HxZ"/>
                         </constraints>
                     </view>
@@ -308,6 +325,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
